@@ -1,0 +1,116 @@
+{
+  "EDITOR_STATE": {
+    "allProjectFiles": {
+      "735dd0cf-2337-4ac1-8d78-9ccc442e4619": {
+        "id": "735dd0cf-2337-4ac1-8d78-9ccc442e4619",
+        "parent": null,
+        "name": "BabyBumpTrial.py",
+        "type": "PYTHON_LAMBDA",
+        "isDirectory": false,
+        "children": [],
+        "isRemovable": true,
+        "filePath": "BabyBumpTrial.py",
+        "cursor": {
+          "lineNumber": 37,
+          "column": 56
+        },
+        "config": {
+          "runtime": "python3.8",
+          "handler": "handler",
+          "timeout": 60,
+          "memory": 128,
+          "layers": [],
+          "name": "BabyBumpTrial"
+        },
+        "triggers": [
+          {
+            "resourceName": "alexaSKb773b4665b3347adacb60efa8dc4ff95",
+            "config": {}
+          }
+        ],
+        "lastUpdated": 1618679429004,
+        "testCases": {
+          "ed5f14d7-18f9-4c76-a325-454e35126f94": {
+            "id": "ed5f14d7-18f9-4c76-a325-454e35126f94",
+            "functionId": "735dd0cf-2337-4ac1-8d78-9ccc442e4619",
+            "name": "My First Test Case",
+            "event": "{\n    \"key1\": \"value1\",\n    \"key2\": \"value2\",\n    \"key3\": \"value3\"\n}"
+          }
+        }
+      },
+      "2e3b6ee1-cfb0-44e3-984e-a7df26adcab9": {
+        "id": "2e3b6ee1-cfb0-44e3-984e-a7df26adcab9",
+        "parent": null,
+        "name": "requirements.txt",
+        "type": "TEXT_FILE",
+        "isDirectory": false,
+        "children": [],
+        "isRemovable": true,
+        "filePath": "requirements.txt",
+        "lastUpdated": 1618679427545
+      }
+    },
+    "openFiles": [
+      "735dd0cf-2337-4ac1-8d78-9ccc442e4619",
+      "2e3b6ee1-cfb0-44e3-984e-a7df26adcab9"
+    ],
+    "currentFileId": "735dd0cf-2337-4ac1-8d78-9ccc442e4619",
+    "resources": {
+      "alexaSKb773b4665b3347adacb60efa8dc4ff95": {
+        "name": "alexaSKb773b4665b3347adacb60efa8dc4ff95",
+        "type": "ALEXA",
+        "config": {
+          "type": 1,
+          "verifiedID": true,
+          "skillID": "amzn1.ask.skill.b773b466-5b33-47ad-acb6-0efa8dc4ff95",
+          "applicationID": ""
+        }
+      }
+    },
+    "customTemplate": {
+      "syntax": "JSON",
+      "overrideDefault": false,
+      "dialect": "CloudFormation",
+      "definitions": null
+    },
+    "envVariables": [
+      {
+        "lambdaId": "all",
+        "varKey": "SIGMA_AWS_ACC_ID",
+        "varValue": null,
+        "shouldPersist": false,
+        "displayOnly": false,
+        "editable": false
+      }
+    ],
+    "packageJSON": {
+      "dependencies": {
+        "ask_sdk_core": {
+          "name": "ask_sdk_core",
+          "language": "python",
+          "version": "1.13.0",
+          "dev": false,
+          "notRemovable": false
+        }
+      }
+    }
+  },
+  "PROJECT_META": {
+    "sigmaVersion": "1.7.0",
+    "projectName": "BabyBump",
+    "projectDescription": "My First Project",
+    "projectVersion": "1.0.0",
+    "projectRegion": "us-east-1",
+    "platform": "AWS",
+    "language": "python",
+    "platformRegions": {},
+    "lastSave": 1618679553239
+  },
+  "VCS_STATE": {
+    "provider": "GitHub",
+    "repo": {
+      "name": "BBtrial-sigma-1618679650462",
+      "url": "https://github.com/betlyves/BBtrial-sigma-1618679650462"
+    }
+  }
+}
